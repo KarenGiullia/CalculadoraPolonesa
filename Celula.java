@@ -1,9 +1,5 @@
-public class Celula {
-    double valor; // valor da célula
+abstract class Celula {
     Celula prox; // referência para próximo elemento
-
-    Celula(double valorInicial){
-        valor = valorInicial;
-        prox = null;
-    }
+    public abstract Object getValor();
+    public abstract void setValor(Object valor);
 }

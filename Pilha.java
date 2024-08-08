@@ -38,7 +38,7 @@ public class Pilha {
             Celula aux = topo; // auxiliar
             // enquanto não chegar no fundo
             while(aux != null){
-                System.out.println("Elemento =" + aux.valor);
+                System.out.println("Elemento =" + aux.getValor());
                         aux = aux.prox;
             }
         }
