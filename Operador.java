@@ -9,4 +9,5 @@ public class Operador extends Celula {
     public String getValor() {
         return valor;
     }
+
 }

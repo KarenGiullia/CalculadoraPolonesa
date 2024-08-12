@@ -9,9 +9,4 @@ public class Variavel extends Celula {
     public Double getValor() {
         return valor;
     }
-
-    @Override
-    public void setValor(Double valor) {
-       this.valor = valor;
-    }
 }
